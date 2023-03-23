@@ -171,17 +171,17 @@ function App() {
         DEL
       </button>
       <OperationButton operation="÷" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="1" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="2" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="3" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="7" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="8" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="9" Mode={Mode} dispatch={dispatch} />
       <OperationButton operation="*" Mode={Mode} dispatch={dispatch} />
       <DigitButton digit="4" Mode={Mode} dispatch={dispatch} />
       <DigitButton digit="5" Mode={Mode} dispatch={dispatch} />
       <DigitButton digit="6"  Mode={Mode}dispatch={dispatch} />
       <OperationButton operation="+" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="7" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="8" Mode={Mode} dispatch={dispatch} />
-      <DigitButton digit="9" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="1" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="2" Mode={Mode} dispatch={dispatch} />
+      <DigitButton digit="3" Mode={Mode} dispatch={dispatch} />
       <OperationButton operation="-" Mode={Mode} dispatch={dispatch} />
       <DigitButton digit="." Mode={Mode} dispatch={dispatch} />
       <DigitButton digit="0" Mode={Mode} dispatch={dispatch} />
@@ -192,7 +192,7 @@ function App() {
       >
         =
       </button>
-      <button style={Mode==="dark"? {backgroundColor: "rgba(1, 1, 1, .5)", color: "white", fontSize: "20px", gridColumn: "span 4"} : {backgroundColor: "rgba(255, 255, 255, .75)", color: "black", fontSize: "20px", gridColumn: "span 4"}} onClick={toggle}>Change to {Mode==="light"? "Dark" : "Light"} Mode</button>
+      <button style={Mode==="dark"? {backgroundColor: "rgba(1, 1, 1, .5)", color: "white", fontSize: "20px", gridColumn: "span 4"} : {backgroundColor: "rgba(255, 255, 255, .75)", color: "black", fontSize: "20px", gridColumn: "span 4"}} onClick={toggle}>Switch to {Mode==="light"? "Dark" : "Light"} Mode</button>
     </div>
     </>
   )
