@@ -1,15 +1,17 @@
-# Getting Started with Create React App
+# Calculator - React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/95685662/227366155-c1e428d0-c9f9-4cac-8e7f-896f5a0646f3.png)
+![image](https://user-images.githubusercontent.com/95685662/227366258-ac520c03-f73e-43fe-b23c-71f27ac752f4.png)
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
